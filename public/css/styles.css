@@ -1,20 +1,19 @@
 body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 .content {
-  display: grid;
-  grid-template-rows: 150px auto;
+    display: grid;
+    grid-template-rows: 150px auto;
 }
 .navbar {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 .navbarLeft,
 .navbarRight {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
